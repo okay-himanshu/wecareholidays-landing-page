@@ -1,9 +1,9 @@
 // import img from "../assets/images/img1.jpg"
 import { useEffect, useState } from "react";
-import {  img1, img2, img3, img4 } from "../assets/images";
+import { img1, img2, img3, img4 } from "../assets/images";
 function Banner() {
   // let imgArr =[img2,img3,img4,img1]
-  const images = [img1, img2, img3,img4];
+  const images = [img1, img2, img3, img4];
   const [image, setImage] = useState(img1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -22,17 +22,13 @@ function Banner() {
     }, 2000);
     return () => clearInterval(id);
   }, [next]);
-  return <>
-  <div className="h-[59vh]  overflow-y-hidden hover:opacity-[0.7] duration-200">
-    
-    {
-
-   
-<img src={image} alt="" className="w-full object-cover"/>
-  
-    }
-  </div>
-  </>;
+  return (
+    <>
+      <div className="h-[30rem] w-[100%]  overflow-y-hidden hover:opacity-[0.8] duration-200">
+        {<img src={image} alt="" className="w-full object-cover" />}
+      </div>
+    </>
+  );
 }
 
 export default Banner;

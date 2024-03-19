@@ -3,21 +3,19 @@ import Banner from "../components/Banner";
 import Grid from "../components/Grid";
 
 function Home() {
-  return(
- <main>
-  <div><Banner/>
-  <Grid/>
-  </div>
-    <div>
-      <div className="relative">
-        <Banner />
-        <div className="absolute -top-6 right-32">
-          <Form />
+  return (
+    <main>
+      <div>
+        <div className="relative">
+          <Banner />
+          <div className="absolute top-2 right-32">
+            <Form />
+          </div>
         </div>
+        <Grid />
       </div>
-    </div>
-  </main>
-    )
+    </main>
+  );
 }
 
 export default Home;
