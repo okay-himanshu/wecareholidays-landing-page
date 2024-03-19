@@ -1,8 +1,13 @@
 import { Form } from "../components";
 import Banner from "../components/Banner";
+import Grid from "../components/Grid";
 
 function Home() {
-  return (
+  return(
+ <main>
+  <div><Banner/>
+  <Grid/>
+  </div>
     <div>
       <div className="relative">
         <Banner />
@@ -11,7 +16,8 @@ function Home() {
         </div>
       </div>
     </div>
-  );
+  </main>
+    )
 }
 
 export default Home;
