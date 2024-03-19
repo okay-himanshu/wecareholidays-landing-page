@@ -1,3 +1,4 @@
+import { FaTelegram } from "react-icons/fa";
 import { Button } from ".";
 
 function Form() {
@@ -21,7 +22,8 @@ function Form() {
           ></textarea>
           <Button
             text={"Send Message"}
-            className="mt-2 w-[96%] bg-[#ff525d] p-2  text-white rounded-md hover:bg-[#fc5a64e3] duration-150"
+            className="mt-2 w-[96%] bg-[#ff525d] py-3  text-white rounded-md hover:bg-[#fc5a64e3] duration-150"
+            icon={<FaTelegram size={17} />}
           />
         </form>
       </main>
