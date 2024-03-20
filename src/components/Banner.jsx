@@ -24,7 +24,7 @@ function Banner() {
   }, [next]);
   return (
     <>
-      <div className="h-[30rem] w-[100%]  overflow-y-hidden hover:opacity-[0.8] duration-200">
+      <div className="md:h-[30rem] w-[100%]  overflow-y-hidden hover:opacity-[0.8] duration-200 ">
         {<img src={image} alt="" className="w-full object-cover" />}
       </div>
     </>
