@@ -16,7 +16,12 @@ function About() {
         estates, foggy mountains, and historical charm.
       </p>
 
-      <Button />
+      <Button
+        className={
+          "bg-white border border-gray-800 hover:border-[#ff525d] hover:bg-[#ff525d] duration-150 hover:text-white py-1 px-2 mt-5"
+        }
+        text={"Connect with us "}
+      />
     </main>
   );
 }
