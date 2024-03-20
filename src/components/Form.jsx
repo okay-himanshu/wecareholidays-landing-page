@@ -4,8 +4,8 @@ import { Button } from ".";
 function Form() {
   return (
     <>
-      <main className="bg-white  mt-10 h-96 w-[25rem] py-10 px-6 rounded-md shadow-2xl">
-        <form className="flex flex-col items-center gap-3 text-sm">
+      <main className="bg-white  mt-10 h-96 w-full md:w-[25rem] py-10 px-6 rounded-md shadow-2xl">
+        <form className="flex flex-col items-center gap-3 text-sm w-full">
           <input
             type="text"
             placeholder="Your Name*"
