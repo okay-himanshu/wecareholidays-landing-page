@@ -1,4 +1,5 @@
 // import { Form } from "../components";
+import About from "../components/About";
 import Banner from "../components/Banner";
 import Grid from "../components/Grid";
 
@@ -9,6 +10,7 @@ function Home() {
         <div className="relative">
           <Banner />
         </div>
+        <About />
         <Grid />
       </div>
     </main>
