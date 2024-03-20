@@ -5,19 +5,16 @@ import { MdPhone } from "react-icons/md";
 import { CgMenuRight } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
+import { logo } from "../assets/images";
 
 function Navbar() {
   const [toggle, setToggle] = useState(true);
 
   const handleToggle = () => setToggle(!toggle);
   return (
-    <nav className="flex items-center justify-between gap-24 px-10 py-4 text-sm  ">
+    <nav className="flex items-center justify-between gap-24 px-10 py-4 text-sm   ">
       <div>
-        <img
-          src="https://wecareholidays.com/img/wecare_logo.svg"
-          alt="logo"
-          className="h-14"
-        />
+        <img src={logo} alt="logo" className="h-4 sm:h-9 w-full object-cover" />
       </div>
       <div
         className={`absolute md:relative top-0 left-0 bg-white shadow-lg md:shadow-none rounded-b-lg md:rounded-none w-full md:top-0  md:w-auto z-40 py-3 md:py-0 ${

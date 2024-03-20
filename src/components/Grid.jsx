@@ -6,7 +6,7 @@ function Grid() {
       <div className="m-auto mt-16 text-center text-2xl sm:text-5xl">
         <h1>Destinations</h1>
       </div>
-      <div className="w-full   h-auto  mx-auto mt-6 flex flex-wrap justify-center gap-[10px] ">
+      <div className="w-full max-w-screen-2xl   h-auto  mx-auto mt-6 flex flex-wrap justify-center gap-[10px] ">
         <div className="w-[40%] md:w-[50%] h-[150px] md:h-[350px]  border  overflow-hidden relative ">
           <img
             src={img4}

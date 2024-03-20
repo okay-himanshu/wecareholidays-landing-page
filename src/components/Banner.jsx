@@ -47,4 +47,3 @@ function Banner() {
 
 export default Banner;
 
-// h-[30rem] w-[100%]  overflow-y-hidden hover:opacity-[0.8] duration-200

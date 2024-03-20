@@ -2,7 +2,7 @@ import Button from "./Button";
 
 function About() {
   return (
-    <main className="flex flex-col items-center justify-center gap-5 px-5 sm:px-20 py-10 mx-auto mt-10">
+    <main className=" max-w-screen-2xl  flex flex-col items-center justify-center gap-5 px-5 sm:px-20 py-10 mx-auto mt-10">
       <h1 className="text-2xl md:text-5xl font-medium text-center  text-[#202020d5]">
         "Explore the beauty of Sikkim and Darjeeling"{" "}
       </h1>
