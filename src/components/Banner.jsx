@@ -25,7 +25,7 @@ function Banner() {
   }, [next]);
   return (
     <>
-      <div className={`relative max-w-screen-2xl m-auto `}>
+<div className={`relative max-w-screen-2xl m-auto `}>
         {
           <img
             src={image}
