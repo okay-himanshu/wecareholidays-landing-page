@@ -18,7 +18,7 @@ function About() {
 
       <Button
         className={
-          "bg-white border border-gray-800 hover:border-[#ff525d] hover:bg-[#ff525d] duration-150 hover:text-white py-1 px-2 mt-5"
+          "bg-white border border-gray-800 hover:border-[#ff525d] hover:bg-[#ff525d] duration-150 hover:text-white py-3 px-5 mt-5"
         }
         text={"Connect with us "}
       />
